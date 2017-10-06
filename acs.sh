@@ -7,7 +7,7 @@ CLUSTER_NAME=acs-meetup
 KEY="/home/{your-user}/clouddrive/.ssh/id_rsa.pub"
 PKEY="/home/{your-user}/clouddrive/.ssh/id_rsa"
 
-# Create Resource Group
+# Create Resource Group 
 az group create --name=$RESOURCE_GROUP --location=$LOCATION
 
 # Create Cluster
